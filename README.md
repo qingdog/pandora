@@ -1,3 +1,12 @@
+```shell
+docker pull pengzhile/pandora
+dorker images
+docker run -e PANDORA_CLOUD=cloud -e PANDORA_SERVER=0.0.0.0:1339 -p 1339:1339 -d pengzhile/pandora
+docker ps
+```
+
+---
+
 # Pandora
 
 潘多拉 (Pandora)，一个让你呼吸顺畅的 ChatGPT。
